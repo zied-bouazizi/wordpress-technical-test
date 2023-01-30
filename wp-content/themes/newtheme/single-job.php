@@ -35,4 +35,12 @@
 	</div>
 </div>
 
-<?php get_footer(); ?>
+<div class="footer">
+	<?php if (is_active_sidebar('footer-widget')) : ?>
+		<div class="widget-area">
+			<?php dynamic_sidebar('footer-widget'); ?>
+			<a href="#" class="fa fa-facebook"></a>
+			<a href="#" class="fa fa-twitter"></a>
+		</div>
+	<?php endif; ?>
+</div>

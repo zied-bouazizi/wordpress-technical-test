@@ -149,6 +149,12 @@ section.container-fluid.custom_box {
   padding: 50px 20px;
 }
 
+.footer {
+  color: white;
+  padding: 50px;
+  float: right;
+}
+
 /* custom style */
 p {
   font-size: 13px;
@@ -235,4 +241,31 @@ a.btn.btn-back {
   letter-spacing: 1.5px;
   padding: 10px 0;
   text-decoration: underline;
+}
+
+/* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Hover effect */
+.fa:hover {
+  opacity: 0.7;
+  text-decoration: none;
+}
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
 }

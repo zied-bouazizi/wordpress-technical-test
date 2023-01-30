@@ -238,6 +238,15 @@ function newtheme_widgets_init()
         'before_title' => '<h3 class="widget-title">',
         'after_title' => '</h3>',
     ));
+    register_sidebar(array(
+        'name' => __('Footer Widget', 'newtheme'),
+        'id' => 'footer-widget',
+        'description' => __('The footer widget area', 'newtheme'),
+        'before_widget' => '<div id="%1$s" class="widget-container %2$s">',
+        'after_widget' => '</div>',
+        'before_title' => '<h3 class="widget-title">',
+        'after_title' => '</h3>',
+    ));
 }
 
 add_action('widgets_init', 'newtheme_widgets_init');
