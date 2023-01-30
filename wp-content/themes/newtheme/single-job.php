@@ -1,6 +1,10 @@
 <?php get_header(); ?>
 
 <div class="container job-details">
+	<div class="back">
+		<a class="btn btn-back" href="<?php echo wp_get_referer(); ?>">Back</a>
+	</div>
+
 	<div class="job-title">
 		<h3><?php the_title(); ?></h3>
 	</div>
