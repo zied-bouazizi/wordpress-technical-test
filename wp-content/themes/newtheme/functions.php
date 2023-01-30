@@ -224,3 +224,20 @@ function dynamic_navigation()
 }
 
 add_action('after_setup_theme', 'dynamic_navigation');
+
+// Dynamic sidebar widget
+function newtheme_widgets_init()
+{
+
+    register_sidebar(array(
+        'name' => __('Sidebar Widget', 'newtheme'),
+        'id' => 'sidebar-widget',
+        'description' => __('The main sidebar appears on the right on each page except the front page template', 'newtheme'),
+        'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+        'after_widget' => '</aside>',
+        'before_title' => '<h3 class="widget-title">',
+        'after_title' => '</h3>',
+    ));
+}
+
+add_action('widgets_init', 'newtheme_widgets_init');
