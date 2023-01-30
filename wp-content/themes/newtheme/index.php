@@ -97,7 +97,7 @@
           <?php the_excerpt(); ?>
         </div>
         <div class="details">
-          <a class="btn btn-default btn_details" href="<?php echo get_permalink() ?>">Details</a>
+          <a class="btn btn-primary" href="<?php echo get_permalink() ?>">Details</a>
         </div>
       </div>
     <?php  }

@@ -20,6 +20,10 @@
 		<h4>General information:</h4>
 		<p><?php the_content(); ?></p>
 	</div>
+
+	<div class="apply">
+		<a class="btn btn-primary" href="mailto:<?php echo get_post_meta($post->ID, 'company_email', true); ?>">Apply Now</a>
+	</div>
 </div>
 
 <?php get_footer(); ?>
