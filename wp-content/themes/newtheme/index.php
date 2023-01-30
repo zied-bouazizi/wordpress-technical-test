@@ -10,8 +10,12 @@
           <div class="logo">
             <h4 class="logo">WordPress Technical Test</h4>
           </div>
-          <div class="barr">
-            <i class="fa fa-bars"></i>
+          <div class="secondary-menu">
+            <?php
+            wp_nav_menu(array(
+              'theme_location' => 'SecondaryMenu'
+            ));
+            ?>
           </div>
         </div>
 

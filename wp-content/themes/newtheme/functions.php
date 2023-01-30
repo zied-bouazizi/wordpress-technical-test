@@ -214,3 +214,12 @@ class CustomFieldsMetaBox
 if (class_exists('CustomFieldsMetabox')) {
     new CustomFieldsMetabox;
 };
+
+// Dynamic navigation menus
+
+function dynamic_navigation()
+{
+    register_nav_menu('SecondaryMenu', 'Secondary Menu');
+}
+
+add_action('after_setup_theme', 'dynamic_navigation');

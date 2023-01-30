@@ -15,9 +15,17 @@ body {
   color: white;
 }
 
-.barr .fa-bars {
-  color: white;
+.secondary-menu {
   font-size: 24px;
+}
+
+.secondary-menu a {
+  color: white;
+}
+
+.secondary-menu a:hover {
+  color: rgba(10, 56, 97, 1);
+  text-decoration: none;
 }
 
 .header_text {
