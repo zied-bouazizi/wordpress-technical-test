@@ -84,7 +84,7 @@
       }
     ?>
 
-      <div class="single-content <?php echo  $termsSLug; ?> list-item">
+      <div class="single-content <?php echo $termsSLug; ?> list-item">
         <div class="job-title">
           <h6><?php the_title(); ?></h6>
         </div>
@@ -97,7 +97,7 @@
           <?php the_excerpt(); ?>
         </div>
         <div class="details">
-          <a class="btn btn-default btn_details" href="#">Details</a>
+          <a class="btn btn-default btn_details" href="<?php echo get_permalink() ?>">Details</a>
         </div>
       </div>
     <?php  }

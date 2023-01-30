@@ -135,13 +135,16 @@ section.container-fluid.custom_box {
   padding-bottom: 80px;
 }
 
+.job-details {
+  background: white;
+  padding: 50px 20px;
+}
+
 /* custom style */
 p {
-  font-size: 10px;
-  text-transform: uppercase;
+  font-size: 13px;
   letter-spacing: .18em;
   text-align: left;
-  padding-top: 30px;
 }
 
 a {
@@ -166,8 +169,8 @@ h4 {
 
 }
 
-.single-content .row {
-  padding: 0 20px;
+.row {
+  padding: 0 20px 10px 20px;
 }
 
 .filters {
