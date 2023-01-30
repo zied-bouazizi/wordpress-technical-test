@@ -10,6 +10,13 @@
           <div class="logo">
             <h4 class="logo">WordPress Technical Test</h4>
           </div>
+          <div class="main-menu">
+            <?php
+            wp_nav_menu(array(
+              'theme_location' => 'MainMenu'
+            ));
+            ?>
+          </div>
           <div class="secondary-menu">
             <?php
             wp_nav_menu(array(

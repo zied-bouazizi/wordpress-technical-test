@@ -219,6 +219,7 @@ if (class_exists('CustomFieldsMetabox')) {
 
 function dynamic_navigation()
 {
+    register_nav_menu('MainMenu', 'Main Menu');
     register_nav_menu('SecondaryMenu', 'Secondary Menu');
 }
 

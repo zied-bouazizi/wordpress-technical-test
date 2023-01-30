@@ -15,8 +15,21 @@ body {
   color: white;
 }
 
-.secondary-menu {
+.main-menu {
   font-size: 24px;
+}
+
+.main-menu a {
+  color: white;
+}
+
+.main-menu a:hover {
+  color: rgba(10, 56, 97, 1);
+  text-decoration: none;
+}
+
+.secondary-menu {
+  font-size: 14px;
 }
 
 .secondary-menu a {
@@ -164,12 +177,12 @@ h4 {
 
 ul {
   list-style: none;
-  padding: 20px 0;
+  padding: 0;
 }
 
 li {
   display: inline;
-  padding: 10px 25px;
+  padding: 10px;
   font-size: 14px;
   color: #636363;
   font-weight: 400;
