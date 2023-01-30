@@ -113,3 +113,83 @@ section.container-fluid.custom_box {
   padding-top: 70px;
   padding-bottom: 80px;
 }
+
+/* custom style */
+p {
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: .18em;
+  text-align: left;
+  padding-top: 30px;
+}
+
+a {
+  text-decoration: none;
+}
+
+h4 {
+  color: grey;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.content {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+  text-align: left;
+}
+
+.single-content {
+  width: 100%;
+
+}
+
+.single-content .row {
+  padding: 0 20px;
+}
+
+.filters {
+  width: 100%;
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  padding: 20px 0;
+}
+
+li {
+  display: inline;
+  padding: 10px 25px;
+  font-size: 14px;
+  color: #636363;
+  font-weight: 400;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: .2em;
+}
+
+li:hover {
+  color: #a6a6a6;
+}
+
+li.active {
+  color: #ccc;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+}
+
+a.btn.btn-default.btn_details {
+  text-transform: uppercase;
+  font-size: 14px;
+  border: 1px solid white;
+  border-radius: 30px;
+  color: white;
+  background-color: rgba(10, 56, 97, 1);
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  padding: 7px 21px;
+  transition: .5s;
+  float: right;
+}
